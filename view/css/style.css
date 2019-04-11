@@ -1,0 +1,63 @@
+
+            body{
+                width: 50%;
+                margin: 0 auto;
+            }
+            table.posts {
+                width: 100%;
+            }
+            
+            table.posts thead {
+                background-color: #eee;
+                text-align: left;
+            }
+            
+            table.posts thead th {
+                border: solid 1px #fff;
+                padding: 3px;
+            }
+            
+            table.posts tbody td {
+                border: solid 1px #eee;
+                padding: 3px;
+            }
+            
+            a, a:hover, a:active, a:visited {
+                color: blue;
+                text-decoration: underline;
+            }
+            .button{
+            	background-color: #4CAF50;
+            	color: #fff!important;   
+                padding: 10px; 
+                text-decoration: none;           	
+            }
+            .addPost a {
+                text-decoration: none;
+            } 
+            .form{
+            	margin-top: 20px;
+            	padding: 20px;
+            	background: #eee;
+            }
+            .form input{
+				width: 91%;
+				height: 40px;
+				border: none;
+				margin-bottom: 30px;
+            }
+            .submit{
+            	margin-top: 20px;
+            	background-color: #4CAF50;
+            	color: #fff;
+            	cursor: pointer;
+            }
+            button{
+            	padding: 5px 15px;
+            	border: none;
+            	background-color: #4CAF50;
+            	color: #fff;            	
+            }
+            #validationTitle, #validationContent{
+            	color: red;
+            }
